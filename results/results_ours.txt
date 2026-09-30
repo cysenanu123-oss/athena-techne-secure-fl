@@ -1,0 +1,14 @@
+== no attack  (seeds [42, 1, 2, 3, 4])
+   ours    F1 mean=0.7495 per-seed=[0.7619, 0.7472, 0.7614, 0.7285, 0.7485]  quarantined per seed=[[], [], [], [], []]  seed-42 flagged-by-round=[[], [], [], [], [], [], [], []]
+== scale x15, bank 1 (notebook default)  (seeds [42, 1, 2])
+   ours    F1 mean=0.7595 per-seed=[0.7758, 0.7445, 0.7582]  quarantined per seed=[[1], [1], [1]]  seed-42 flagged-by-round=[[1], [1], [1], [1], [1], [1], [1], [1]]
+== scale x50, bank 1  (seeds [42])
+   ours    F1 mean=0.7758 per-seed=[0.7758]  quarantined per seed=[[1]]  seed-42 flagged-by-round=[[1], [1], [1], [1], [1], [1], [1], [1]]
+== label-flip only, bank 1 (stealthy)  (seeds [42])
+   ours    F1 mean=0.7758 per-seed=[0.7758]  quarantined per seed=[[1]]  seed-42 flagged-by-round=[[1], [1], [], [], [], [1], [1], [1]]
+== scale x15, banks 1+3  (seeds [42])
+   ours    F1 mean=0.7506 per-seed=[0.7506]  quarantined per seed=[[1, 3]]  seed-42 flagged-by-round=[[1, 3], [1, 3], [1, 3], [1, 3], [1, 3], [1, 3], [1, 3], [1, 3]]
+== label-flip only, banks 1+3  (seeds [42])
+   ours    F1 mean=0.7535 per-seed=[0.7535]  quarantined per seed=[[1, 3]]  seed-42 flagged-by-round=[[3], [1, 3], [], [], [], [], [1, 3], [1, 3]]
+
+[exited with code 0]
